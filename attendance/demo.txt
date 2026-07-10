@@ -1,0 +1,2 @@
+cd "C:\Users\ARUN VARSHAN SDR\Downloads\New folder\Assignment\attendance"
+python attendance.py

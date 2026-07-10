@@ -1,0 +1,4 @@
+# Run from duplicatefilefinder folder
+
+cd "C:\Users\ARUN VARSHAN SDR\Downloads\assignment 2\duplicatefilefinder"
+python duplicate_finder.py

@@ -1,0 +1,28 @@
+Online Quiz System
+==================
+
+Requirements:
+- Python 3.10+ (standard library only: json, random, time, pathlib)
+- No external packages needed
+
+How to run:
+cd "C:\Users\ARUN VARSHAN SDR\Downloads\New folder\Assignment\onlinequiz"
+python online_quiz.py
+
+Features:
+1. Multiple-choice questions (A/B/C/D)
+2. Score calculation (correct/total + percentage + pass/fail)
+3. Timer (countdown from time_limit_seconds in JSON)
+4. Random questions each attempt (and shuffled options)
+5. Bonus: Read questions from questions.json
+
+Files:
+- online_quiz.py     -> main program
+- questions.json     -> question bank (edit to add your own)
+- quiz_results.json  -> auto-created after first quiz
+
+Customize questions.json:
+- time_limit_seconds : total quiz time
+- questions_to_ask   : how many random questions per attempt
+- pass_percentage    : pass mark
+- answer             : 0-based index of correct option

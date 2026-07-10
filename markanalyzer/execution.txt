@@ -1,0 +1,2 @@
+cd "C:\Users\ARUN VARSHAN SDR\Downloads\student_marks_analyzer"
+python marks_analyzer.py
