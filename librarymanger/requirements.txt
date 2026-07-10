@@ -1,0 +1,9 @@
+SQLAlchemy==2.0.31
+alembic==1.13.1
+psycopg2-binary==2.9.9
+python-dotenv==1.2.2
+openpyxl==3.1.5
+reportlab==5.0.0
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.4

@@ -1,0 +1,9 @@
+cd "C:\Users\ARUN VARSHAN SDR\OneDrive\Desktop\library manger"
+pip install -r requirements.txt
+python setup_db.py
+
+# CLI mode
+python library_manager.py
+
+# API mode (FastAPI)
+uvicorn main:app --reload
